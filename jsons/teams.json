@@ -1,0 +1,344 @@
+{
+  "team": {
+    "id": 2,
+    "username": "prober",
+    "name": "",
+    "university": ""
+  },
+
+  "inAir": false
+ },
+{
+  "team": {
+    "id": 3,
+    "username": "amador-valley-high-school",
+    "name": "Amador UAVs",
+    "university": "Amador Valley High School"
+  },
+  "inAir": false
+},
+{
+  "team": {
+    "id": 4,
+    "username": "ataturk-university",
+    "name": "ATA UAV",
+    "university": "Ataturk University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 5,
+    "username": "bogazici-university",
+    "name": "AIRBENDERS",
+    "university": "Bo\u011fazi\u00e7i University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 6,
+    "username": "cal-poly-pomona",
+    "name": "CPP AUVSI",
+    "university": "California State Polytechnic U"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 7,
+    "username": "christopher-newport-university",
+    "name": "Unmanned Aerial Systems at CNU",
+    "university": "Christopher Newport University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 8,
+    "username": "concordia-university",
+    "name": "UAV Concordia",
+    "university": "Concordia University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 9,
+    "username": "cornell-university",
+    "name": "CUAir",
+    "university": "Cornell University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 11,
+    "username": "ecole-de-technologie-superieure",
+    "name": "Dronolab",
+    "university": "\u00c9cole de technologie sup\u00e9rieur"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 12,
+    "username": "flint-hill-school",
+    "name": "Animus Ferus",
+    "university": "Flint Hill School"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 13,
+    "username": "indian-institute-of-tech-bombay",
+    "name": "Rakshak UAV",
+    "university": "Indian Institute of Technology"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 14,
+    "username": "nirma-university",
+    "name": "Team Arrow",
+    "university": "Institute of Technology, Nirma"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 15,
+    "username": "istanbul-technical-university",
+    "name": "ITUNOM UAV Team",
+    "university": "Istanbul Technical University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 16,
+    "username": "istanbul-university-cerrahpasa",
+    "name": "ATLAS UAV TEAM",
+    "university": "Istanbul University - Cerrahpa"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 17,
+    "username": "king-fahd-university",
+    "name": "UAS2030",
+    "university": "King Fahd University of Petrol"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 18,
+    "username": "kocaeli-university",
+    "name": "SARSILMAZ UAV TEAM",
+    "university": "Kocaeli University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 19,
+    "username": "manipul-institute-of-technology",
+    "name": "Project MANAS",
+    "university": "Manipal Institute of Technolog"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 20,
+    "username": "michigan-state-university",
+    "name": "MSU Unmanned Systems",
+    "university": "Michigan State University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 21,
+    "username": "middle-east-technical-university",
+    "name": "METU ANATEK",
+    "university": "Middle East Technical Universi"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 22,
+    "username": "military-technical-college",
+    "name": "Sky Thunder Team",
+    "university": "Military Technical College"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 24,
+    "username": "ms-ramaiah-institute-of-tech",
+    "name": "Edhitha UAS",
+    "university": "MS Ramaiah Institute of Techno"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 25,
+    "username": "navaminda-kasatriyadhiraj-royal-thai",
+    "name": "Pegasus",
+    "university": "Navaminda Kasatriyadhiraj Roya"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 26,
+    "username": "north-carolina-state-university",
+    "name": "Aerial Robotics Club at NC Sta",
+    "university": "North Carolina State Universit"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 27,
+    "username": "polish-air-force-university",
+    "name": "PAFU Team",
+    "university": "Polish Air Force University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 29,
+    "username": "reali-beit-biram-high-school",
+    "name": "Haifa Reali Robotics",
+    "university": "Reali Beit Biram High School"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 30,
+    "username": "rutgers-university",
+    "name": "RUAutonomous",
+    "university": "Rutgers University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 31,
+    "username": "pennsylvania-state-university",
+    "name": "Penn State UAS",
+    "university": "The Pennsylvania State Univers"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 32,
+    "username": "thomas-jefferson-high-school",
+    "name": "TJ UAV",
+    "university": "Thomas Jefferson High School f"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 33,
+    "username": "united-states-naval-academy",
+    "name": "USNA",
+    "university": "United States Naval Academy"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 34,
+    "username": "universite-de-sherbrooke",
+    "name": "VAMUdeS",
+    "university": "Universit\u00e9 de Sherbrooke"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 35,
+    "username": "university-of-british-columbia",
+    "name": "UBC Unmanned Aircraft Systems ",
+    "university": "University of British Columbia"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 36,
+    "username": "university-of-california-san-diego",
+    "name": "Triton Unmanned Aerial Systems",
+    "university": "University of California, San "
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 38,
+    "username": "virginia-tech",
+    "name": "AAV at Virginia Tech",
+    "university": "Virginia Tech"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 10,
+    "username": "dehli-technological-university",
+    "name": "UAS-DTU",
+    "university": "Delhi Technological University"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 28,
+    "username": "purdue-university",
+    "name": "Purdue Aerial Robotics ",
+    "university": "Purdue University "
+  },
+  "inAir": false,
+  "telemetry": {
+    "latitude": 1.0,
+    "longitude": 1.0,
+    "altitude": 1.0,
+    "heading": 1.0
+  },
+  "telemetryId": "2936",
+  "telemetryAgeSec": 1680.880341,
+  "telemetryTimestamp": "2022-06-15T19:40:58.052023+00:00"
+}
+{
+  "team": {
+    "id": 23,
+    "username": "monroe-community-college",
+    "name": "Monroe Community College Drone",
+    "university": "Monroe Community College"
+  },
+  "inAir": false
+}
+{
+  "team": {
+    "id": 37,
+    "username": "university-of-cincinnati",
+    "name": "UC Aerial Vehicles (UCAV)",
+    "university": "University of Cincinnati"
+  },
+  "inAir": false
+}
+
