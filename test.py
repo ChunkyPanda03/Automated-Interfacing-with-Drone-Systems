@@ -1,8 +1,8 @@
-import MCC_DL
+import messages_lib
 import pymavlink.dialects.v20.common
 import time
 import json_to_py
-d1 = MCC_DL.drone(device="udp:localhost:14550", source_system=1,)
+d1 = messages_lib.drone(device="tcp:0.0.0.0:5760", source_system=1,)
 if d1.connect_test(40) == True:
     def send_it():
        # d1.wp_clear_all()
