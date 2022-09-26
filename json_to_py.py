@@ -1,5 +1,5 @@
 import simplejson
-with open("cords.json","r")as f:
+with open("jsons/SUAScord.json","r")as f:
     data = simplejson.load(f)
 #print(data)
 #for item in data['waypoints']:
