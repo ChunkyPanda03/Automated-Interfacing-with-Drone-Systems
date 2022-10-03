@@ -1,3 +1,6 @@
+import os
+os.environ.setdefault('MAVLINK20', "1")
+'''this library will only work with mavlink dialect 2 do not change this will break everything'''
 from pymavlink import mavutil, mavwp, mavexpression
 import time, json
 util = mavutil
