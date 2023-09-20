@@ -1,4 +1,5 @@
 import os
+#some of these methods must be made private going forward will need to set up test environment to ensure nothing breaks september 2023 
 os.environ.setdefault('MAVLINK20', "1")
 '''this library will only work with mavlink dialect 2 do not change this will break everything'''
 from pymavlink import mavutil, mavwp, mavexpression
@@ -12,6 +13,7 @@ class drone():
         self.msg = self.con.mav.command_long_send
         self.fence = mavwp.MAVFenceLoader(target_system=self.con.target_system,target_component=self.con.target_component)
     def precision_land_mode(self,mode):
+        #plan on changing this to a py lib or json to pylib
         x = mode.lower()
         if x == "disabled":
             return 0
@@ -22,6 +24,7 @@ class drone():
         else:
             print("unknown mode")
     def frame_type_to_id(self,frame):
+        #plan on changing this to a py lib or json to pylib
         x = frame.upper()
         if x == "MAV_FRAME_GLOBAL":
             return 0
@@ -65,6 +68,7 @@ class drone():
             if arming != None:
                 print("arming failed")
     def modeset(self, mode):
+        #plan on changing this to a py lib or json to pylib
         def mode_to_id():
             variable = mode.lower()
             if variable == "stabilize":
