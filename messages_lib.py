@@ -1,12 +1,18 @@
 import os
 os.environ.setdefault('MAVLINK20', "1")
-'''this library will only work with mavlink dialect 2 do not change this will break everything'''
+"""this library will only work with mavlink dialect 2 do not change this will break everything"""
 from pymavlink import mavutil, mavwp, mavexpression
 import time, json
 util = mavutil
 class drone():
     def __init__(self, device, source_system, source_component = 0):
-        self.con = util.mavlink_connection(device=device, source_system=source_system, source_component=source_component)
+        """
+        Constructor necesary to specify te drone object
+        :param device: the location of the device (antenna, or virtual) as is recognized by the OS
+        :param source_system: is the id number of the drone on the network
+        :param source_component: usually zero see however can be changed
+        """
+        self.con = util.mavlink_connection(device=device, source_system=source_system, source_component=source_component, progress_callback=True)
         self.mavmsg = mavutil.mavlink
         self.wp = mavwp.MAVWPLoader()
         self.msg = self.con.mav.command_long_send
@@ -45,9 +51,9 @@ class drone():
                 return True
 
     def arm_drone(self, arm=True):
-        if arm == True:
+        if arm is True:
             arm = 1
-        elif arm == False:
+        elif arm is not True:
             arm = 0
 
         try:
@@ -59,10 +65,12 @@ class drone():
                               arm,  # 0 = disarm 1 = arm
                               0, 0, 0, 0, 0)
         finally:
-            if arming == None:
+            if arming is None:
+                print(str(self.con.wait_heartbeat(blocking=False)))
                 print("arming success")
                 time.sleep(5)
-            if arming != None:
+            if arming is not None:
+                print(str(self.con.wait_heartbeat(blocking=False)))
                 print("arming failed")
     def modeset(self, mode):
         def mode_to_id():
@@ -410,14 +418,8 @@ class drone():
             #time.sleep(1)
             print('Sending waypoint {0}'.format(msg.seq))
         self.wp.clear()
-
-
-
+        #wip
     def wp_set_land(self, abort_alt, land_mode, frame, lat, long, alt, yaw="NaN", current_item=0, autocontinue=0, seq=1):
-
-
-
-
 
         self.wp.add(self.mavmsg.MAVLink_mission_item_message(self.con.target_system,
                                                              self.con.target_component,
@@ -434,7 +436,7 @@ class drone():
                                                              long,
                                                              self.con.target_component,
                                                              alt))
-
+#wip
     def wp_set_takeoff(self, alt, frame, pitch=0, lat=0, long=0, yaw=0, current_item=0, autocontinue=0, seq=0):
 
 

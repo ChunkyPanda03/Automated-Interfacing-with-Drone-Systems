@@ -17,47 +17,4 @@ if d1.connect_test(40) == True:
         d1.fence_circle_exclusion(radius=json_to_py.stationaryObstacles('radius'),lat=json_to_py.stationaryObstacles('latitude'),long=json_to_py.stationaryObstacles('longitude'))
         d1.fence_send()
     send_it()
-    input('allset?')
-    d1.change_speed("air_speed",15)
-    d1.modeset('guided')
-    d1.arm_drone(True)
-    d1.guided_takeoff_global(0,0,30)
-    input('ready for auto?')
-    d1.modeset('auto')
-    input('rtl?')
-    d1.guide_rtl()
-
-
-
-    #d1.guided_servo(10, 500)
-    #time.sleep(10)
-    #d1.guided_servo(10, 1100)
-    #d1.change_speed("air_speed",10,-1)
-    #d1.wp_set_send_wp('mav_frame_global',0)
-    #d1.wp_set_takeoff(100,"MAV_FRAME_GLOBAL_RELATIVE_ALT",seq=0)
-    #d1.wp_set_takeoff(100, "mav_frame_global", seq=1)
-    #d1.wp_set_send_wp("MAV_FRAME_GLOBAL_RELATIVE_ALT",alt=[100,100],lat=[-35.361548,-35.361548],long=[149.164084,149.164090],seq=1)
-
-    #d1.modeset("guided")
-    #d1.arm_drone(True)
-    #d1.guided_takeoff_global(0,0,100,0,0)
-    #time.sleep(60)
-    #d1.modeset("auto")
-    #d1.guide_rtl()
-    #d1.wp_clear_all()
-    #d1.wp_set_wp("MAV_FRAME_GLOBAL_RELATIVE_ALT",alt=json_to_py.waypoints('altitude'),lat=json_to_py.waypoints('latitude'),long=json_to_py.waypoints('longitude'),seq=1)
-    #d1.send_wp()
-
-
-
-
-
-
-
-
-
-
-
-    #pi mavproxy.py --master=/dev/ttyACM0 --out=/dev/ttyUSB0
-    #local mavproxy.py --out=udp:localhost:14550
-    #servo is 10 min:500 max:1100
+    print(d1.con.wait_heartbeat(blocking=False))
